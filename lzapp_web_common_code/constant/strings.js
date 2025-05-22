@@ -1,0 +1,313 @@
+export const STRINGS = {
+  skip: "Skip",
+  signin_with_email: "Sign In with E-mail",
+  apple: "Sign in with Apple",
+  google: "Sign in with Google",
+  why_do_i_need_signin: "Why do I need to Sign In?",
+  why_do_i_need_signin_desc:
+    "Your sign-in is required to personalize the app and provide a better experience. Sign-in allows the app to store your preferences and progress which can be synced across multiple devices. \nThe app collects only the data that is absolutely required to save and sync your progress. None of the data is ever shared with anyone else",
+  welcome: "Welcome Back,",
+  prepare_message: "We are preparing your data...",
+  update_question_message:
+    "Please be patient. We are preparing your data. It will take a little time.",
+  update_message: "We are updating your score...",
+  update_question_message: "We are updating your question score...",
+  login_to_continue: "Log in to Continue",
+  or: "OR",
+  signin_register: "Sign In",
+  continue_as_guest: "Continue as a Guest",
+  dont_have_an_account: "Don't have an account?",
+  singup: "Sign Up",
+  forgot_password: "Forgot password?",
+  enter_email: "Enter Email",
+  enter_access_code: "Enter access code",
+  enter_password: "Enter Password",
+  enter_first_name: "Enter First Name",
+  enter_last_name: "Enter Last Name",
+  enter_email_message: "Enter your email address",
+  enter_password_message: "Enter your password",
+  enter_valid_email_address: "Enter valid email address",
+  enter_valid_password:
+    "Password must contain at least one digit, one lowercase letter, one uppercase letter and be 6-16 characters",
+  choose_plan: "Choose Plan",
+  profile: "Profile",
+  notification_settings: "Notification Settings",
+  restore_purchase: "Restore Purchase",
+  terms_condition: "Terms & Condition",
+  remind_me_before_my_free_trial_ends: "Remind me before my free trial ends",
+  subscription_info_message:
+    "Subscriptions will be charged to your credit card through your App Store account. Your subscriptions will automatically renew unless...",
+  view_more: "View More",
+  our_premium_plans: "Unlock Unlimited Access with Premium Plans",
+  our_free_plan: "Try the app with Free Plan",
+  subscribe: "Subscribe",
+  subscribe_and_continue: "Subscribe and Continue",
+  continue_with_free_plan: "Continue With Free Plan",
+  month_tag: "/Month",
+  bill_tag: " Billed",
+  hard: "Full Assessment",
+  easy: "Quick Assessment",
+  question_test: "Question Test",
+  free_trial_tag: "7 day free trial has been expired",
+  sign_out: "Sign out",
+  first_name: "First Name",
+  last_name: "Last Name",
+  email: "Email",
+  old_password: "Old Password",
+  new_passwrod: "New Password",
+  confirm_password: "Confirm Password",
+  enter_old_password: "Enter Old Password",
+  enter_new_password: "Enter New Password",
+  enter_confirm_password: "Enter Confirm Password",
+  enter_password_same: "Password and confirm password should be same",
+  login_method: "Login Method",
+  official_app: "(ISC)2 Official App",
+  OVERALL_READINESS_SCORE: "OVERALL  READINESS  SCORE",
+  subscribe_full_version:
+    "Unlock Unlimited Access by\nsubscribing to premium plans",
+  view_plans: "View premium plans",
+  today_tasks: "Today’s Task",
+  view_all: "View all >",
+  study_questions: "Study Questions",
+  study_questions_title: "Study Questions",
+  quiz_of_the_day: "Quiz of the\nDay",
+  practice_tests: "Practice\nTests",
+  flashcards: "Flashcards",
+  flashcard: "Flashcard",
+  flashcard_message:
+    "Do you want to resume from where you stopped last? Or start from beginning?",
+  start_from_beginning: "Start from Beginning",
+  resume_from_stopped: "Resume from where I stopped",
+  cancel: "Cancel",
+  cancel_subscription: "Renews Automatically. Cancel Anytime.",
+  redeem_access_code: "Redeem Access Code",
+  hot_to_cancel: "How to Cancel Subscription",
+  cancel_subscription_message:
+    "Cancelling your subscription is easy. Follow the instructions below: \n\nApple \nOpen Settings App \nTap your Name \nTap Subscriptions \nTap the subscription \nTap Cancel Subscription \n\nAndroid\n Go to play.google.com \nSign in to the correct Google Account \nAt the left, click My subscriptions \nSelect the subscription you want to cancel \nClick Manage and then Cancel subscription \nWithin the confirmation pop-up, click Yes.",
+  create_custom_test: "Create Custom Test",
+  glossary: "Glossary",
+  acronymns: "Acronymns",
+  dashboard: "Dashboard",
+  attempted: "Attempted",
+  correct: "Correct",
+  incorrect: "Incorrect",
+  community_comparision: "Community Comparision",
+  your_score: "Your Score",
+  community_score: "Community Score",
+  domain_readiness_score: "Domain Readiness Score",
+  domain_readiness_score_empty:
+    "You haven't answered any question yet. your test progress will be display here...",
+  chart_score_empty:
+    "You haven't answered any question yet. your progress chart will be display here...",
+  readiness_progress_history: "Readiness Progress History",
+  daily_task: "Daily Task",
+  add_task: "Add Task",
+  task_title: "Title",
+  select_test_type: "Select test type",
+  // select_domain: `Select ${APP_DATA?.DOMAIN_TITLE ?? 'Domain'}`,
+  test_history: "Test History",
+  bookmark: "Bookmarks",
+  are_you_sure: "Are you sure?",
+  test_delete_warning:
+    "This will permanently delete the test and proficiency score will be recalculated",
+  delete: "Delete",
+  no: "No",
+  yes: "Yes",
+  average_time_per_question: "Average Time Per Question: ",
+  review_questions: "Review Questions",
+  review_test: "Review Test",
+  search_alphabatic: "Search by Alphabets",
+  test_end_warning: "Do you want to end this test?",
+  test_exit_warning: "Do you want to exit this test?",
+  end: "End",
+  end_test: "End Test",
+  quiz_reminder: "Quiz of the day reminder",
+  study_reminder: "Study plan reminder",
+  other_app: "Other Apps",
+  practice_test: "Practice Tests",
+  test_options: "Test Options",
+  other_app_message:
+    "Learnzapp creates\nmany other apps\nthat help you\nprepare for\ncertification exams.\nCheck them out.",
+  practice_test_message:
+    "Confidence, Belief &\nPractice that’s all\nyou need to crack\nanything in life.",
+  next: "Next",
+  previous: "Previous",
+  custom_test: "Custom Test",
+  custom_test_builder: "Custom Test Builder",
+  number_of_question: "Number of Questions",
+  or_devider: "------- or ------",
+  time: "Time (in minutes)",
+  what_questions: "Which Questions to Prioritize?",
+  show_answer_as_i_go: "Show answer as I go",
+  get_started: "Get Started",
+  subscription_plans: "Subscription Plans",
+  your_current_plan: "Your Current Plan",
+  basic_plan: "Basic Plan",
+  month_premium_plan: "1 Month Premium  Plan",
+  six_month_premium_plan: "6 Month Premium  Plan",
+  year_premium_plan: "12 Months Premium  Plan",
+  free: "Free",
+  five_a_month: "$5 a month",
+  four_a_month: "$4 a month",
+  three_a_month: "$3 a month",
+  help_support: "Help and Support",
+  search_query: "Search Query",
+  camera: "Camera",
+  photo_library: "Photo Library",
+  enter_email_message: "Enter your email to reset your password",
+  reset: "Reset",
+  reset_popup_title: "Reset Password",
+  change_title: "Change Password",
+  reset_popup_message:
+    "Please check your email and click on provided link to reset your password",
+  clear_all: "Clear All",
+  notification: "Notification",
+  remind: "Remind me later",
+  question: "Question",
+  questions_text: "Questions",
+  questions: "Questions:",
+  total_question: "Total Question: ",
+  total_score: "Total Score: ",
+  scores: "Score:",
+  all: "All",
+  // all_domains: `All ${APP_DATA?.DOMAIN_TITLE ?? 'Domain'}s`,
+  unanswered: "Unanswered",
+  retake_test: "Retake test",
+  correct_tag: "CORRECT",
+  incorrect_tag: "INCORRECT",
+  unanswered_tag: "UNANSWERED",
+  all_topics: "All Topics",
+  no_record_test_histoy:
+    "You have not yet completed any tests.\nOnce you take tests, your test history will be shown here",
+  explanation: "Explanation",
+  no_boomark:
+    "You have not yet bookmarked any questions.\nAll your bookmarks for the selected topic will be listed here",
+  no_question_boomark:
+    "You have not yet bookmarked any questions.\nAll your bookmarks for the selected topic will be listed here",
+  time_up_message: "Your time is up! See Your Test Performance",
+  overall_average_score: "Overall Average Score",
+  total_test_taken: "Total\nTest taken",
+  reset_data: "Reset App Data",
+  reset_data_message:
+    "Are you sure you want to reset app data? This will erase all your data including history and bookmarks. Your Readiness score will be reset to 0.",
+  show_test_performance: "Show Test Performance",
+  monthly: "Monthly",
+  quarterly: "Quarterly",
+  semi_annual: "Semi-annual",
+  annually: "Annually",
+  premium_member: "Premium Plan",
+  free_member: "Free Plan",
+  plan_expire_on: "Subscription expires on: ",
+  subscription_view_more_message:
+    "Subscriptions will be charged to your credit card through your app store account. Your subscription will automatically renew unless canceled at least 24 hours before the end of current period. You will be able to cancel the subscription once activated. Manage your subscriptions in Account Settings after purchase.",
+  review_message: "Are you enjoing the app!",
+  review_yes: "😀 Yes",
+  review_no: "😒 No",
+  restore_success: "Your subscription has been successfully restored",
+  redeem_success: "Your access code has been  redeemed successfully",
+  unlock_full_access: "Unlock Full Access",
+  restore_error:
+    "Your subscription could not be restored. Looks like you do not have a valid subscription. If you think this is an error, please contact Support team to resolve the issue",
+  contact_support: "Contact Support",
+  off: "off",
+  review_title: "Your Opinion Matters!",
+  review_desc:
+    "Please consider taking a moment to leave a review. Your feedback helps us improve the app and helps others decide if it's the right fit for them.",
+  love_it: "Rate us",
+  need_work: "I'll not Rate the App",
+  not_yet_review: "Remind me in a week",
+  time_per_question: "Time Per Question",
+  allow_go_back_to_prevoius_question: "Allow go back to previous Questions?",
+  internet_error: "Your Internet connection appears to be offline",
+  delete_title: "Delete Account",
+  delete_desc:
+    "This will permanently delete all of your activities, purchases and other account data from the server. Delete account cannot be reversed or recovered",
+  delete_auth_message:
+    "This operation is sensitive and requires recent authentication. Please follow this step to delete your account \n\n • Signout \n • Login again with same login method \n • Delete your account",
+  delete_account: "Delete Account",
+  delete_warning_message: "Delete account can not be reversed or recovered",
+  delete_my_account: "Delete My Account",
+  keep_my_account: "Keep My Account",
+  already_have_account: "Already have an account?",
+  apple_delete_instruction: "Stop using Sign in with Apple",
+  apple_delete_instruction_message:
+    "You data has been deleted from our database. As you used Sign in with Apple to login to this app, follow the instructions below to Stop using Sign in with Apple:\n\n• On you iPhone/iPad, Go to settings, than tap your name.\n• Tap Password & Security > Apps Using Apple ID\n• Select the App, then tap Stop Using Apple ID",
+  open_setting: "Open Setting",
+  // share_message: STRINGS_AS_PER_APP.share_message,
+  change_bundle: "Select Your Exam",
+  select_exam: "Select the exam you want to start preparing for",
+  change_bundle_messge: "Switch your exam preparation at any time.",
+  change: "Change",
+  reset_data_app_message:
+    "Are you sure you want to reset app data? This will erase all your data including history and bookmarks. Your Readiness score will be reset to 0.",
+  community_popup_title: "Question Community Score",
+  community_popup_desc:
+    "This score reflects how other users have performed on this question.",
+  community_popup_desc_less_50:
+    "Less than 50% of the users answered this question correctly.",
+  community_popup_desc_less_80:
+    "50% - 80% of the users answered this question correctly.",
+  community_popup_desc_less_100:
+    "More than 80% users answered this question correctly.",
+  community_test_popup_title: "Test Community Score",
+  community_test_popup_desc:
+    "This score reflects how other users have performed on this test.",
+  community_test_popup_desc_less_50:
+    "Average score for this test is less than 50%",
+  community_test_popup_desc_less_80:
+    "Average score for this test is between 50% - 80%",
+  community_test_popup_desc_less_100:
+    "Average score for this test is more than 80%",
+  select: "Select",
+  apply: "Apply",
+  fontSetting: "Font Setting",
+  fontsize: "Font size",
+  password_change: "Your password changed successfully",
+  default: "default",
+  update_popup_header: "New Update\navailable!",
+  update_popup_text:
+    "Update App to make use of a\nbetter version of App and some\nnew features! ",
+  Update_now: "Update now!",
+  app_appearance: "App Appearance",
+  enter_access_code_message: "Enter your access code",
+  redeem: "Redeem",
+  upgrade_for_more: "Unlock More ",
+};
+
+export const KEY_POINTS_PAID = [
+  "Unlimited access to CISSP, CCSP and SSCP Exam Prep",
+  "Comprehensive study materials : Over 5000 practice questions with detailed explanations.",
+  "Key Concepts : 2000 Flashcards. 2000 Glossary and Acronyms.",
+  "Custom Test Builder : Personalized tests with new and your weakest questions.",
+  "Readiness Score : Know how ready you are for the real test.",
+];
+
+export const KEY_POINTS_FREE = [
+  "Limited access to Questions and Flashcards.",
+  "Try all the app features before buying a premium plan.",
+  "Know your exam Readiness Score. ",
+  "Build your custom test or practice on prebuilt test.",
+  "Exam concept with Flashcard, Glossary and Acronyms",
+];
+
+const toHHMMSS = function (value) {
+  /* extend the String by using prototypical inheritance */
+  var seconds = parseInt(value, 10); // don't forget the second param
+  var hours = Math.floor(seconds / 3600);
+  var minutes = Math.floor((seconds - hours * 3600) / 60);
+  seconds = seconds - hours * 3600 - minutes * 60;
+
+  if (hours < 10) {
+    hours = "0" + hours;
+  }
+  if (minutes < 10) {
+    minutes = "0" + minutes;
+  }
+  if (seconds < 10) {
+    seconds = "0" + seconds;
+  }
+  var time = hours + ":" + minutes + ":" + seconds;
+  return time;
+};
+
+export { toHHMMSS };

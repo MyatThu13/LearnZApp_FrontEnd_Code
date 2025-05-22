@@ -1,0 +1,27 @@
+var _path;
+function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
+import * as React from "react";
+function SvgBackArrow(_ref, svgRef) {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 21,
+    height: 12,
+    viewBox: "0 0 21 12",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    ref: svgRef,
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React.createElement("title", {
+    id: titleId
+  }, title) : null, _path || (_path = /*#__PURE__*/React.createElement("path", {
+    d: "M21 5.61956C21 5.20535 20.6642 4.86956 20.25 4.86956L10 4.86956L10 2.7549C10 0.472847 7.38084 -0.81625 5.57253 0.575791L1.85125 3.44043C0.42123 4.54127 0.42123 6.69784 1.85125 7.79867L5.57253 10.6633C7.38085 12.0554 10 10.7662 10 8.48419L10 6.36956L20.25 6.36956C20.6642 6.36956 21 6.03378 21 5.61956Z",
+    fill: "#003326"
+  })));
+}
+const ForwardRef = /*#__PURE__*/React.forwardRef(SvgBackArrow);
+export default __webpack_public_path__ + "static/media/backArrow.3b7b736b2fcec3ee852048b260fe8dc7.svg";
+export { ForwardRef as ReactComponent };

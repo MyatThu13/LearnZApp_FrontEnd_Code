@@ -1,0 +1,28 @@
+var _path;
+function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
+import * as React from "react";
+function SvgInfo(_ref, svgRef) {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    id: "Layer_1",
+    height: 512,
+    viewBox: "0 0 512 512",
+    width: 512,
+    xmlns: "http://www.w3.org/2000/svg",
+    "data-name": "Layer 1",
+    ref: svgRef,
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React.createElement("title", {
+    id: titleId
+  }, title) : null, _path || (_path = /*#__PURE__*/React.createElement("path", {
+    d: "m256 0c-141.159 0-256 114.841-256 256s114.84 256 256 256 256-114.84 256-256-114.84-256-256-256zm0 108.762c81.189 0 147.24 66.051 147.239 147.238s-66.049 147.239-147.239 147.24-147.239-66.05-147.24-147.24 66.052-147.238 147.24-147.238zm0 270.478a123.239 123.239 0 1 1 123.24-123.24 123.387 123.387 0 0 1 -123.24 123.24zm12-156.2v97.2a12 12 0 0 1 -24 0v-97.2a12 12 0 1 1 24 0zm0-31.274v2.817a12 12 0 1 1 -24 0v-2.818a12 12 0 1 1 24 0z",
+    fillRule: "evenodd"
+  })));
+}
+const ForwardRef = /*#__PURE__*/React.forwardRef(SvgInfo);
+export default __webpack_public_path__ + "static/media/info.b1d7e8592c31e1af8b53cbe549277cd9.svg";
+export { ForwardRef as ReactComponent };

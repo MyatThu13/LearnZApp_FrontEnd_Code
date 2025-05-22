@@ -1,0 +1,28 @@
+var _path;
+function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
+import * as React from "react";
+function SvgCircle3(_ref, svgRef) {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 129,
+    height: 145,
+    viewBox: "0 0 129 145",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    ref: svgRef,
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React.createElement("title", {
+    id: titleId
+  }, title) : null, _path || (_path = /*#__PURE__*/React.createElement("path", {
+    d: "M299.468 9.86182C299.468 84.1374 232.519 144.35 149.934 144.35C67.3489 144.35 0.400391 84.1374 0.400391 9.86182C0.400391 -64.4137 67.3489 -124.626 149.934 -124.626C232.519 -124.626 299.468 -64.4137 299.468 9.86182ZM74.9398 9.86182C74.9398 47.1125 108.516 77.3102 149.934 77.3102C191.352 77.3102 224.928 47.1125 224.928 9.86182C224.928 -27.3889 191.352 -57.5866 149.934 -57.5866C108.516 -57.5866 74.9398 -27.3889 74.9398 9.86182Z",
+    fill: "white",
+    fillOpacity: 0.08
+  })));
+}
+const ForwardRef = /*#__PURE__*/React.forwardRef(SvgCircle3);
+export default __webpack_public_path__ + "static/media/circle_3.eadb809722ceb103eed8dfa97b9cc8f8.svg";
+export { ForwardRef as ReactComponent };

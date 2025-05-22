@@ -1,0 +1,36 @@
+var _path, _path2, _path3, _path4;
+function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
+import * as React from "react";
+function SvgChangeExam(_ref, svgRef) {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 49,
+    height: 48,
+    viewBox: "0 0 49 48",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    ref: svgRef,
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React.createElement("title", {
+    id: titleId
+  }, title) : null, _path || (_path = /*#__PURE__*/React.createElement("path", {
+    d: "M44.5 10.3V17.7C44.5 22.2 42.7 24 38.2 24H32.8C28.3 24 26.5 22.2 26.5 17.7V10.3C26.5 5.8 28.3 4 32.8 4H38.2C42.7 4 44.5 5.8 44.5 10.3Z",
+    fill: "white"
+  })), _path2 || (_path2 = /*#__PURE__*/React.createElement("path", {
+    d: "M22.5 30.3V37.7C22.5 42.2 20.7 44 16.2 44H10.8C6.3 44 4.5 42.2 4.5 37.7V30.3C4.5 25.8 6.3 24 10.8 24H16.2C20.7 24 22.5 25.8 22.5 30.3Z",
+    fill: "white"
+  })), _path3 || (_path3 = /*#__PURE__*/React.createElement("path", {
+    d: "M30.0609 44C29.5209 44 29.0209 43.7 28.7609 43.24C28.5009 42.76 28.5009 42.2 28.7809 41.72L30.7209 38.48C31.1409 37.76 32.0609 37.54 32.7809 37.96C33.5009 38.38 33.7209 39.3 33.3009 40.02L32.9409 40.62C37.8809 39.34 41.5209 34.86 41.5209 29.54C41.5209 28.72 42.2009 28.04 43.0209 28.04C43.8409 28.04 44.5009 28.72 44.5009 29.56C44.5009 37.52 38.0209 44 30.0609 44Z",
+    fill: "white"
+  })), _path4 || (_path4 = /*#__PURE__*/React.createElement("path", {
+    d: "M6 19.94C5.18 19.94 4.5 19.28 4.5 18.44C4.5 10.48 10.98 4 18.94 4C19.5 4 19.98 4.3 20.26 4.76C20.52 5.24 20.52 5.8 20.24 6.28L18.3 9.5C17.86 10.22 16.94 10.46 16.24 10.02C15.52 9.6 15.3 8.68 15.72 7.96L16.08 7.36C11.16 8.64 7.5 13.12 7.5 18.44C7.5 19.28 6.82 19.94 6 19.94Z",
+    fill: "white"
+  })));
+}
+const ForwardRef = /*#__PURE__*/React.forwardRef(SvgChangeExam);
+export default __webpack_public_path__ + "static/media/change_exam.74d6596d2042430eec0e4572c4b94319.svg";
+export { ForwardRef as ReactComponent };

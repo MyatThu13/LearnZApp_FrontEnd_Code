@@ -1,0 +1,27 @@
+var _path;
+function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
+import * as React from "react";
+function SvgRightIcon(_ref, svgRef) {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 8,
+    height: 14,
+    viewBox: "0 0 8 14",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    ref: svgRef,
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React.createElement("title", {
+    id: titleId
+  }, title) : null, _path || (_path = /*#__PURE__*/React.createElement("path", {
+    d: "M2.28294 0.54552C1.93971 0.205339 1.3857 0.20781 1.04552 0.55104C0.705339 0.89427 0.707811 1.44828 1.05104 1.78847L3.10784 3.82699C3.94258 4.65432 4.51518 5.2237 4.90263 5.70615C5.279 6.17479 5.40811 6.47581 5.44248 6.7454C5.46405 6.91468 5.46405 7.08597 5.44248 7.25525C5.40811 7.52484 5.279 7.82586 4.90263 8.2945C4.51518 8.77695 3.94258 9.34633 3.10784 10.1737L1.05104 12.2122C0.707811 12.5524 0.705339 13.1064 1.04552 13.4496C1.3857 13.7928 1.93971 13.7953 2.28294 13.4551L4.3768 11.3799C5.16543 10.5983 5.80999 9.95947 6.26709 9.39029C6.74243 8.79841 7.08651 8.19765 7.17843 7.47651C7.21873 7.16032 7.21873 6.84033 7.17843 6.52414C7.08651 5.803 6.74243 5.20224 6.26709 4.61036C5.80998 4.04118 5.16543 3.40237 4.37679 2.62077L2.28294 0.54552Z",
+    fill: "#060E19"
+  })));
+}
+const ForwardRef = /*#__PURE__*/React.forwardRef(SvgRightIcon);
+export default __webpack_public_path__ + "static/media/right_icon.3746ae14084a5a308b74ab61fed81cd1.svg";
+export { ForwardRef as ReactComponent };

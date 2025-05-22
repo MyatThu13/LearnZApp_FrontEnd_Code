@@ -1,0 +1,35 @@
+var _path, _path2, _path3;
+function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
+import * as React from "react";
+function SvgSearchIcon(_ref, svgRef) {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 20,
+    height: 20,
+    viewBox: "0 0 20 20",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    ref: svgRef,
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React.createElement("title", {
+    id: titleId
+  }, title) : null, _path || (_path = /*#__PURE__*/React.createElement("path", {
+    d: "M7.77959 4.0021C8.12052 3.9481 8.35312 3.62795 8.29912 3.28702C8.24513 2.94609 7.92498 2.71349 7.58405 2.76749C5.53373 3.09222 3.92569 4.70026 3.60096 6.75058C3.54696 7.09151 3.77956 7.41166 4.12049 7.46565C4.46142 7.51965 4.78157 7.28705 4.83557 6.94612C5.07559 5.43067 6.26414 4.24212 7.77959 4.0021Z",
+    fill: "#888C8B"
+  })), _path2 || (_path2 = /*#__PURE__*/React.createElement("path", {
+    fillRule: "evenodd",
+    clipRule: "evenodd",
+    d: "M9.16699 0.208496C4.67968 0.208496 1.04199 3.84618 1.04199 8.3335C1.04199 12.8208 4.67968 16.4585 9.16699 16.4585C13.6543 16.4585 17.292 12.8208 17.292 8.3335C17.292 3.84618 13.6543 0.208496 9.16699 0.208496ZM2.29199 8.3335C2.29199 4.53654 5.37003 1.4585 9.16699 1.4585C12.9639 1.4585 16.042 4.53654 16.042 8.3335C16.042 12.1305 12.9639 15.2085 9.16699 15.2085C5.37003 15.2085 2.29199 12.1305 2.29199 8.3335Z",
+    fill: "#888C8B"
+  })), _path3 || (_path3 = /*#__PURE__*/React.createElement("path", {
+    d: "M16.2757 14.5583C16.0316 14.3142 15.6359 14.3142 15.3918 14.5583C15.1477 14.8024 15.1477 15.1981 15.3918 15.4422L18.725 18.7755C18.9691 19.0195 19.3648 19.0196 19.6089 18.7755C19.853 18.5314 19.853 18.1357 19.6089 17.8916L16.2757 14.5583Z",
+    fill: "#888C8B"
+  })));
+}
+const ForwardRef = /*#__PURE__*/React.forwardRef(SvgSearchIcon);
+export default __webpack_public_path__ + "static/media/search_icon.62d5bde8f376a3819c1e71fbc609d26d.svg";
+export { ForwardRef as ReactComponent };

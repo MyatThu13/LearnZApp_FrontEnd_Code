@@ -1,0 +1,29 @@
+var _path;
+function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
+import * as React from "react";
+function SvgBookmarkSave(_ref, svgRef) {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 24,
+    height: 25,
+    viewBox: "0 0 24 25",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    ref: svgRef,
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React.createElement("title", {
+    id: titleId
+  }, title) : null, _path || (_path = /*#__PURE__*/React.createElement("path", {
+    fillRule: "evenodd",
+    clipRule: "evenodd",
+    d: "M5.24472 6.95492C5 7.70808 5 8.63872 5 10.5V17.8874C5 19.8045 5 20.7631 5.34196 21.27C5.75971 21.8893 6.48778 22.2242 7.22986 22.1383C7.8373 22.068 8.56509 21.4442 10.0207 20.1966C10.6614 19.6474 10.9818 19.3728 11.3337 19.2484C11.7648 19.0961 12.2352 19.0961 12.6663 19.2484C13.0182 19.3728 13.3386 19.6474 13.9793 20.1965C15.4349 21.4442 16.1627 22.068 16.7701 22.1383C17.5122 22.2242 18.2403 21.8893 18.658 21.27C19 20.7631 19 19.8045 19 17.8874V10.5C19 8.63872 19 7.70808 18.7553 6.95492C18.2607 5.43273 17.0673 4.23931 15.5451 3.74472C14.7919 3.5 13.8613 3.5 12 3.5C10.1387 3.5 9.20808 3.5 8.45492 3.74472C6.93273 4.23931 5.73931 5.43273 5.24472 6.95492ZM12 5.75C11.5858 5.75 11.25 6.08579 11.25 6.5C11.25 6.91421 11.5858 7.25 12 7.25C13.7949 7.25 15.25 8.70507 15.25 10.5C15.25 10.9142 15.5858 11.25 16 11.25C16.4142 11.25 16.75 10.9142 16.75 10.5C16.75 7.87665 14.6234 5.75 12 5.75Z",
+    fill: "#828282"
+  })));
+}
+const ForwardRef = /*#__PURE__*/React.forwardRef(SvgBookmarkSave);
+export default __webpack_public_path__ + "static/media/bookmarkSave.3c21b4c30d32ecc71e6d93e474427da1.svg";
+export { ForwardRef as ReactComponent };
